@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\herre\RobotProject\GNCProject\build\CMakeFiles\95becef077f0da54bf0b96b434c55742\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{721992A2-18A9-3468-83E7-EC91367B1DE9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

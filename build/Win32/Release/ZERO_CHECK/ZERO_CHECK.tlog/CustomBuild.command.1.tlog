@@ -1,0 +1,10 @@
+^C:\USERS\HERRE\ROBOTPROJECT\GNCPROJECT\BUILD\CMAKEFILES\95BECEF077F0DA54BF0B96B434C55742\GENERATE.STAMP.RULE
+setlocal
+C:\Users\herre\cmake-4.2.3-windows-arm64\bin\cmake.exe -SC:/Users/herre/RobotProject/GNCProject -BC:/Users/herre/RobotProject/GNCProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/herre/RobotProject/GNCProject/build/GNCProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

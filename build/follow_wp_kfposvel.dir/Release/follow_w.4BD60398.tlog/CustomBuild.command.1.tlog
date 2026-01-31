@@ -1,0 +1,10 @@
+^C:\USERS\HERRE\ROBOTPROJECT\GNCPROJECT\CMAKELISTS.TXT
+setlocal
+C:\Users\herre\cmake-4.2.3-windows-arm64\bin\cmake.exe -SC:/Users/herre/RobotProject/GNCProject -BC:/Users/herre/RobotProject/GNCProject/build --check-stamp-file C:/Users/herre/RobotProject/GNCProject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
