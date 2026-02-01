@@ -8,10 +8,10 @@ follows a sequence of waypoints using a control law driven by a Kalman state est
 telemetry to CSV, and a Python script generates plots and error distributions.
 
 ## Prerequisites
-Install these vendor tools before building or running:
-- ARIA (Adept MobileRobots ARIA SDK): http://robots.mobilerobots.com/wiki/Aria
-- MobileSim (robot simulator): http://robots.mobilerobots.com/wiki/MobileSim
-- Mapper3 / Mapper3D (map authoring tools): http://robots.mobilerobots.com/wiki/Mapper3
+Install these vendor tools before building or running contained within 'RequiredSoftware\':
+- ARIA (Adept MobileRobots ARIA SDK)
+- MobileSim (robot simulator)
+- Mapper3 / Mapper3D (map authoring tools)
 
 ## Repository Structure
 - `src/` C++ entrypoint and main loop
