@@ -9,9 +9,9 @@ telemetry to CSV, and a Python script generates plots and error distributions.
 
 ## Prerequisites
 Install these vendor tools before building or running contained within 'RequiredSoftware\':
-- ARIA (Adept MobileRobots ARIA SDK)
-- MobileSim (robot simulator)
-- Mapper3 / Mapper3D (map authoring tools)
+- ARIA (Adept MobileRobots ARIA SDK):https://github.com/srmq/ARIA/tree/master 
+- MobileSim (robot simulator): https://github.com/srmq/MobileSim?tab=readme-ov-file 
+- Mapper3 / Mapper3D (map authoring tools): http://vigir.missouri.edu/~gdesouza/Research/MobileRobotics/Software/Mapper3/ 
 
 ## Repository Structure
 - `src/` C++ entrypoint and main loop
