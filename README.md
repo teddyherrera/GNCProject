@@ -1,4 +1,4 @@
-# GNCProject
+# Application of waypoint following and linear kalman filter using ARIA and MobileSim
 
 Originally developed in Python for a graduate survey course on guidance, navigation, and control,
 this waypoint-following project uses a Kalman filter for position/velocity estimation, integrates
